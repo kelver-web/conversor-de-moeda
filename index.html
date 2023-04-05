@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conversor de moedas</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CodeClub Convert Money</h1>
+        </header>
+
+        <main>
+            <label>
+                Converter <b>de</b>
+                <select>
+                    <option>R$ Real brasileiro</span></option>
+                </select>
+            </label>
+
+            <label>
+                Converter <b>para</b> 
+                <select id="current-select">
+                    <option>US$ Dólar americano</span></option>
+                    <option>€ Euro</span></option>
+                </select>
+            </label>
+
+            <label>
+                Valor
+                <input id="input-reals" placeholder="10.000,00">
+            </label>
+
+            <button id="button-convert" type="button">Converter</button>
+
+            <section>
+                <div class="imagem">
+                    <img src="./assets/brasil.png" alt="">
+                    <p class="text-p">Real</p>
+                    <p class="price" id="currency-real-text">R$ 10.000,00</p>
+                </div>
+
+                <div class="imagem">
+                    <img src="./assets/Vector.png" alt="">
+                </div>
+
+                <div class="imagem">
+                    <img id="currency-img" src="./assets/estados-unidos.png" alt="">
+                    <p class="text-p" id="currency-name">Dólar americano</p>
+                    <p class="price" id="currency-value">US$ 2.000,00</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
