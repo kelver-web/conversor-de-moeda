@@ -55,15 +55,6 @@ select {
     font-weight: 400;
     color: #555555;
 }
-.moedas {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18px;
-    display: flex;
-    align-items: center;
-    color: #555555;
-}
 input {
     background: #FFFFFF;
     border: 1px solid #BBBBBB;
@@ -80,7 +71,7 @@ button {
     background: #1B83E2;
     border-radius: 25px;
     color: #F4F4F4;
-    padding: 15px 122.62px;
+    padding: 15px;
     width: 100%;
     margin-top: 24px;
     margin-bottom: 36px;
@@ -100,7 +91,6 @@ button:active {
 section {
     border: 1px solid #1B83E2;
     border-radius: 4px;
-
 }
 .imagem {
     text-align: center;
@@ -109,7 +99,7 @@ section {
 .text-p {
     text-align: center;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
     line-height: 18px;
     color: #777777;
